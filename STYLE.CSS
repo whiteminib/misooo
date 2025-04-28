@@ -1,0 +1,146 @@
+body{
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #2d3c6c;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+    color: #f7f4e5;
+    padding: 10px;
+    box-sizing: border-box;
+}
+header div {
+    background-color: #f7f4e5;
+    border: 2px solid #d02f1c;
+    border-radius: 10px;
+    color: #d02f1c;
+    font-family:'Notable', sans-serif ;
+    font-weight: bolder;
+    text-shadow: 0px 0px 5px #ec7d23;
+    padding: 15px;
+    font-size: 24px;
+    text-align: center;
+}
+header img {
+    height: 100%;
+    object-fit: contain;
+}
+nav {
+    padding: 10px;
+}
+nav a {
+    padding: 10px 20px;
+    font-size: larger;
+    text-decoration:none ;
+    color: #ec7d23;
+    letter-spacing: 2px;
+}
+nav a:hover {
+    color: #f7f4e5;
+    background-color: cadetblue;
+    transition: 0.2s ;
+}
+ 
+.home {
+    height: 600px;
+    background-image: linear-gradient(#d02f1c, #ec7d23);
+}
+
+section.home {
+    height: 600px;
+    background:url("download.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 100px;
+}
+section.home div{
+    text-align: center;
+    justify-content: center;
+    color:#2d3c6c;
+    margin: auto;
+    width: 70%;
+    padding: 20px;
+}
+section.home .welcome{
+    background-color: #f7f4e5;
+    border: 2px solid #d02f1c;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section.home a{
+    color:#f7f4e5;
+    padding: 10px;
+    text-decoration: none;
+    box-shadow: 0px 0px 3px;
+    border-radius: 20px;
+}
+section.home h3{
+    background-color: rgb(247, 244, 229, 0.7);
+    border: 2px solid #d02f1c;
+    border-radius: 10px;
+}
+
+section .about {
+    height: 600px;
+    background-color: linear-gradient(#ec7d23, #d02f1c);
+    padding-top: 100px;
+}
+section.about div{
+    color: #f7f4e5;
+    text-align: center;
+    margin: auto;
+    width: 70%;
+}
+section .about img{
+    height: 200px;
+}
+.product {
+    height: 600px;
+    background-image: linear-gradient(#d02f1c, #ec7d23);
+    background-size: 100px;
+}
+
+section .contact {
+    height: 600px;
+    background-image: linear-gradient(#ec7d23, #d02f1c);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+section .contact .card{
+    margin: auto;
+    color: #f7f4e5;
+    text-align: center;
+    width: 400px;
+    position: relative;
+}
+section .contact .card img{
+    width: 200px;
+    height: auto;
+    justify-content: center;
+}
+.footer {
+    height: 100px;
+}
+footer .medsos{
+    text-align: center;
+    padding-top: 10px;
+    background-color: #2d3c6c;
+}
+footer .medsos a{
+    color: #ec7d23;
+    font-size: 20px;
+    padding: 5px 20px;
+}
